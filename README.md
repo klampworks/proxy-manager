@@ -23,3 +23,7 @@ Perl::LWP is used to download each listing page, then deobfuscation is done on t
 It is very difficult to parse out the correct information from this data (as I found out first hand). The most efficient way of solving this problem is to parse out the *incorrect* information until only the correct values remain.i.e. Delete all tags which are marked display:none, delete all tags which are members of a class with the attribute display:none, and so on.
 
 The proxies are split up into directories based on their country of origin and then into separate files based ont heir protocol (HTTP, HTTPS and socks). This is important because some applications like porxychains will only work with HTTPS and socks but not HTTP.
+
+Below is a screenshot showing the output directory and file structure.
+
+![Alt screenshot](screenshot.jpg)
